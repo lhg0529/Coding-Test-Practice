@@ -1,0 +1,10 @@
+class Solution {
+    public int[] solution(int n) {
+        int count = (n%2==0)?n/2:n/2+1;
+        int[] numbers = new int[count]; 
+        for(int i=0;i<count;i++){
+            numbers[i]=2*i+1;
+        }
+    return numbers;
+    }
+}
